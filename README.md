@@ -37,28 +37,29 @@ Some more technical details:
 ### Available API request
 
 - Execute a new job to listed worker in body, return a pool Id
-
+```
 [POST] http://[MASTER-IP]/job 
 
 BODY : {"cmd": "ping google.com -n 1", "workers": ["node1", "node2"]}
-
+```
 - Get detailled data from a pool
-
+```
 [GET] http://[MASTER-IP]/pool/[pool-id]
-
+```
 - Get all pools
-
+```
 [GET] http://[MASTER-IP]/pools
-
+```
 - Get all workers
-
+```
 [GET] http://[MASTER-IP]/workers
-
+```
 - Kill jobs running on workers listed in body
-
+```
 [PUT] http://[MASTER-IP]/kill/[pool-id]
 
 BODY : {"workers":["master", "node1", "node2", "node3"]}
+```
 
 ### TODO
 
