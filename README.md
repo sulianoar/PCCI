@@ -66,6 +66,6 @@ BODY : {"workers":["master", "node1", "node2", "node3"]}
 
 - Add uuid generation for ID (job, pool, worker) 
 - Change worker id to node
-- Add a start time on pool & job
+- Add a start time on new pool & new job & on client connect
 - Change "cached" by "endTime" on pool & job
 - Add authentification to API
