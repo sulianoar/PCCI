@@ -1,7 +1,7 @@
 # Parallel Computer Communication Interface
 
 > Note:
-> - As this PoC has no security to authenticate requests, you should not leave it available on the Internet.
+> - Since this PoC has no security to authenticate requests, you should not leave it available on the Internet.
 > - I designed it for my own use with my raspberry pi cluster. It work well but i cannot be responsible for any problem with it.
 > 
 > **Use and modify it at your own risk.**
