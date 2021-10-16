@@ -16,6 +16,7 @@ MASTER will communicate silently with WORKER using the TCP socket interface so t
 This is a low-level task management implementation, which means you need to implement your own queuing system based on what works best for your project. For example, you can:
 - wait for a job to be done on a worker before starting a new one
 - check resources on the worker while the job is running to see if you can run a second job on this same one
+
 This project does not cover this part of the queue except for healthCheck example to show you a time loop based implementation to get stats of the nodes ressources and save them in innodb dataBase.
 
 Some more technical details:
