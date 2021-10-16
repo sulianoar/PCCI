@@ -1,4 +1,4 @@
-# Parallel Computer Communication Interface
+# Parallel Computing Communication Interface
 
 > Note:
 > - Since this PoC has no security to authenticate requests, you should not leave it available on the Internet.
