@@ -1,0 +1,14 @@
+{
+  "name": "pcci-healthcheck",
+  "version": "1.0.0",
+  "description": "Get health stats from workers",
+  "main": "healthCheck.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sulianoar",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
